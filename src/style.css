@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(252, 244, 234);
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(251, 248, 245);
+}
+
+input {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-result {
+    background-color: azure;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    border: 5px solid rgb(17, 17, 66);
+}
